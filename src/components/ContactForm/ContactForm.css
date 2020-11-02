@@ -2,16 +2,20 @@
   text-align: center;
   outline: 1px solid black;
   padding: 30px;
+  width: 350px;
 }
-.labelName {
+.labelName,
+.labelNumber {
   display: block;
   font-size: 25px;
 }
-.inputName {
+.inputName,
+.inputNumber {
   margin: 10px auto;
   margin-top: 10px;
   display: block;
   padding: 10px;
+  padding-left: 25px;
   font-size: 25px;
   border-radius: 15px;
 }

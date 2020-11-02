@@ -1,0 +1,19 @@
+.contactItem {
+  display: flex;
+  width: 450px;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 20px;
+}
+.contactName {
+  font-size: 20px;
+  display: block;
+  margin-right: 10px;
+}
+.contactNumber {
+  font-size: 25px;
+  color: blue;
+}
+.del_Btn::after {
+  content: "\26d4";
+}
