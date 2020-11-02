@@ -1,0 +1,23 @@
+.contactForm {
+  text-align: center;
+  outline: 1px solid black;
+  padding: 30px;
+}
+.labelName {
+  display: block;
+  font-size: 25px;
+}
+.inputName {
+  margin: 10px auto;
+  margin-top: 10px;
+  display: block;
+  padding: 10px;
+  font-size: 25px;
+  border-radius: 15px;
+}
+.btnForm {
+  padding: 10px;
+  font-size: 25px;
+  color: blue;
+  border-radius: 15px;
+}

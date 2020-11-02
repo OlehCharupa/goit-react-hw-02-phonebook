@@ -1,10 +1,14 @@
+import React from 'react';
 import './App.css';
+import { v4 as uuidv4 } from 'uuid';
+import PhoneBooks from './PhoneBooks/PhoneBooks';
+// uuidv4();
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-    </div>
+    <PhoneBooks />
   );
-}
+};
 
 export default App;
