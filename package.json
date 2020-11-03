@@ -2,7 +2,7 @@
   "name": "goit-react-hw-02-phonebook",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://OlehCharupa.github.io/goit-hw-02-phonebook",
+  "homepage": "https://OlehCharupa.github.io/goit-reack-hw-02-phonebook",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.5",
     "@testing-library/react": "^11.1.0",
