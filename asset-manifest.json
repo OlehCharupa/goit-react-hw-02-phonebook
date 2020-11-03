@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/goit-hw-02-phonebook/static/css/main.b23fe288.chunk.css",
-    "main.js": "/goit-hw-02-phonebook/static/js/main.49cf821b.chunk.js",
-    "main.js.map": "/goit-hw-02-phonebook/static/js/main.49cf821b.chunk.js.map",
-    "runtime-main.js": "/goit-hw-02-phonebook/static/js/runtime-main.d8a4735c.js",
-    "runtime-main.js.map": "/goit-hw-02-phonebook/static/js/runtime-main.d8a4735c.js.map",
-    "static/js/2.5288ff11.chunk.js": "/goit-hw-02-phonebook/static/js/2.5288ff11.chunk.js",
-    "static/js/2.5288ff11.chunk.js.map": "/goit-hw-02-phonebook/static/js/2.5288ff11.chunk.js.map",
-    "index.html": "/goit-hw-02-phonebook/index.html",
-    "static/css/main.b23fe288.chunk.css.map": "/goit-hw-02-phonebook/static/css/main.b23fe288.chunk.css.map",
-    "static/js/2.5288ff11.chunk.js.LICENSE.txt": "/goit-hw-02-phonebook/static/js/2.5288ff11.chunk.js.LICENSE.txt"
+    "main.css": "/goit-reack-hw-02-phonebook/static/css/main.b23fe288.chunk.css",
+    "main.js": "/goit-reack-hw-02-phonebook/static/js/main.49cf821b.chunk.js",
+    "main.js.map": "/goit-reack-hw-02-phonebook/static/js/main.49cf821b.chunk.js.map",
+    "runtime-main.js": "/goit-reack-hw-02-phonebook/static/js/runtime-main.a792aa83.js",
+    "runtime-main.js.map": "/goit-reack-hw-02-phonebook/static/js/runtime-main.a792aa83.js.map",
+    "static/js/2.5288ff11.chunk.js": "/goit-reack-hw-02-phonebook/static/js/2.5288ff11.chunk.js",
+    "static/js/2.5288ff11.chunk.js.map": "/goit-reack-hw-02-phonebook/static/js/2.5288ff11.chunk.js.map",
+    "index.html": "/goit-reack-hw-02-phonebook/index.html",
+    "static/css/main.b23fe288.chunk.css.map": "/goit-reack-hw-02-phonebook/static/css/main.b23fe288.chunk.css.map",
+    "static/js/2.5288ff11.chunk.js.LICENSE.txt": "/goit-reack-hw-02-phonebook/static/js/2.5288ff11.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.d8a4735c.js",
+    "static/js/runtime-main.a792aa83.js",
     "static/js/2.5288ff11.chunk.js",
     "static/css/main.b23fe288.chunk.css",
     "static/js/main.49cf821b.chunk.js"
