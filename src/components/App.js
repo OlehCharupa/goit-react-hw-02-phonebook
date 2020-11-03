@@ -5,7 +5,9 @@ import PhoneBooks from './PhoneBooks/PhoneBooks';
 
 const App = () => {
   return (
-    <PhoneBooks />
+    <div className="App">
+      <PhoneBooks />
+    </div>
   );
 };
 
