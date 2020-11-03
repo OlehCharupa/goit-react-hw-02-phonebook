@@ -5,11 +5,12 @@ class Filter extends Component {
     state = {
         filter: ""
     }
-    inputHandler = ({ target }) => {
+    inputHandler = async ({ target }) => {
         const { name, value } = target
-        this.setState((() => ({
+        await this.setState(() => ({
             [name]: value
-        })), this.addFilterData())
+        }))
+        this.addFilterData()
     }
     addFilterData = () => {
         const { filter } = this.state

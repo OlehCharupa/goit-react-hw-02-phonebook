@@ -12,7 +12,8 @@ class PhoneBooks extends Component {
 
     addContact = (objContact) => {
         this.setState((prev) => ({
-            contacts: [...prev.contacts, objContact]
+            // contacts: [...prev.contacts, objContact]
+            contacts: this.state.contacts.every(contact => contact.name !== objContact.name) ? [...prev.contacts, objContact] : alert("Контакт с таким Именем уже существует!")
         }));
     }
     deleteContact = id => {
