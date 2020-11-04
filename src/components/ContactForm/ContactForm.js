@@ -1,18 +1,17 @@
 import React, { Component } from 'react';
 import "./ContactForm.css"
-import { v4 as uuidv4 } from 'uuid';
+import PropTypes from 'prop-types';
 
+const formInitialState = {
+    name: "",
+    number: "",
+}
 
 class ContactForm extends Component {
-    formInitialState = {
-        name: "",
-        number: "",
+    state = {
+        ...formInitialState
     }
 
-    state = {
-        name: "",
-        number: "",
-    }
     inputHandler = ({ target }) => {
         const { name, value } = target
         this.setState(() => ({
@@ -25,13 +24,11 @@ class ContactForm extends Component {
         const singleContact = {
             name,
             number,
-            id: uuidv4()
-
         }
         this.props.addContact(singleContact)
 
         this.setState({
-            ...this.formInitialState
+            ...formInitialState
         })
     }
 
@@ -71,3 +68,6 @@ class ContactForm extends Component {
 }
 
 export default ContactForm;
+ContactForm.propTypes = {
+    addContact: PropTypes.func.isRequired
+}

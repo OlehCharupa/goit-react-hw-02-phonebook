@@ -1,37 +1,23 @@
-import React, { Component } from 'react';
+import React from 'react';
 import "./Filter.css"
-
-class Filter extends Component {
-    state = {
-        filter: ""
-    }
-    inputHandler = async ({ target }) => {
-        const { name, value } = target
-        await this.setState(() => ({
-            [name]: value
-        }))
-        this.addFilterData()
-    }
-    addFilterData = () => {
-        const { filter } = this.state
-        const newFilter = filter
-        this.props.stateFilter(newFilter)
-    }
-
-
-    render() {
-        return (
-            <label className="labelSearch" >
-                Find contacts by name
-                <input
-                    className="inputSearch"
-                    name="filter"
-                    type="text"
-                    value={this.state.filter}
-                    onChange={this.inputHandler}
-                />
-            </label>
-        );
-    };
-}
+import PropTypes from 'prop-types';
+const Filter = ({ filter, stateFilter }) => {
+    return (
+        <label className="labelSearch" >
+            Find contacts by name
+            <input
+                className="inputSearch"
+                name="filter"
+                type="text"
+                value={filter}
+                onChange={stateFilter}
+            />
+        </label>
+    );
+};
 export default Filter;
+
+Filter.propTypes = {
+    filter: PropTypes.string.isRequired,
+    stateFilter: PropTypes.func.isRequired
+}
